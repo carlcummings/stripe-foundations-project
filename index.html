@@ -4,25 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>CC's Chocolates</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="./styles.css" />
+    
   </head>
-  <!-- 
-  _________ __         .__                ___________                      .___       __  .__                      
- /   _____//  |________|__|_____   ____   \_   _____/___  __ __  ____    __| _/____ _/  |_|__| ____   ____   ______
- \_____  \\   __\_  __ \  \____ \_/ __ \   |    __)/  _ \|  |  \/    \  / __ |\__  \\   __\  |/  _ \ /    \ /  ___/
- /        \|  |  |  | \/  |  |_> >  ___/   |     \(  <_> )  |  /   |  \/ /_/ | / __ \|  | |  (  <_> )   |  \\___ \ 
-/_______  /|__|  |__|  |__|   __/ \___  >  \___  / \____/|____/|___|  /\____ |(____  /__| |__|\____/|___|  /____  >
-        \/                |__|        \/       \/                   \/      \/     \/                    \/     \/ 
--->
+
   <body>
+    
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
-      <a class="navbar-brand" href="/">Stripe Foundations</a>
+      <a class="navbar-brand" href="/">Ye Old Chocolate Shoppe</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -82,26 +77,28 @@
     <!-- Products -->
     <div class="card-deck m-4">
       <!-- Card -->
-      <div class="card">
+      <div id="Raphio" class="card">
         <div class="card-body text-center">
           <img
-            src="https://ksr-ugc.imgix.net/assets/024/227/959/a22afa06f9fd1e5988f65915a9348e65_original.jpg?ixlib=rb-1.1.0&w=680&fit=max&v=1551263277&auto=format&gif-q=50&q=92&s=e9711ed2f7416cb237772b3ea62db8b7"
+            src="https://raphiochocolate.com/wp-content/uploads/2017/12/72-Ecuador-450x450.jpg"
             class="card-img-top"
-            alt="Mezone"
+            alt="Dandelion"
           />
           <h5 class="card-title">
-            MEZONE: Best-Sounding Sung-Fit True Wireless Stereo+ Earbuds
+            Raphio Chocolate
           </h5>
           <p class="card-text">
-            80-hr battery life/Wireless charging case/8-hr playtime/IPX7
-            waterproof/BT5.0/Big data ergonomic design
+            Handcrafted chocolate from Fresno
+          </p>
+          <p class="card-price">
+            $5
           </p>
         </div>
         <div class="card-footer">
           <button
             type="button"
             class="btn btn-primary btn-block"
-            onclick="openProductModal()"
+            onclick="openProductModal('Raphio')"
           >
             Buy Product
           </button>
@@ -109,26 +106,28 @@
       </div>
       <!-- /Card -->
       <!-- Card -->
-      <div class="card">
+      <div id="Dandelion" class="card">
         <div class="card-body text-center">
           <img
-            src="https://ksr-ugc.imgix.net/assets/024/012/139/8b84f1b2a92e4c0159745e6209fa9d5c_original.gif?ixlib=rb-1.1.0&w=680&fit=max&v=1549485704&auto=format&gif-q=50&q=92&s=3117c5463eb31b47b0ec4977f809736f"
+            src="https://www.davidlebovitz.com/wp-content/uploads/2013/02/8450525892_6f8c630aaf.jpg"
             class="card-img-top"
             alt="..."
           />
           <h5 class="card-title">
-            Assemblage: Modular tech & gadget hub - for home & away.
+            Dandelion Chocolate
           </h5>
           <p class="card-text">
-            Customizable audio, video, connectivity system of stackable modules
-            that are feature-packed individually and more powerful together.
+            Beautiful single source chocolate from Dandelion chocolate. 
+          </p>
+          <p class="card-price">
+            $5.00
           </p>
         </div>
         <div class="card-footer">
           <button
             type="button"
             class="btn btn-primary btn-block"
-            onclick="openProductModal()"
+            onclick="openProductModal('Dandelion')"
           >
             Buy Product
           </button>
@@ -136,26 +135,28 @@
       </div>
       <!-- /Card -->
       <!-- Card -->
-      <div class="card">
+      <div id="Amano" class="card">
         <div class="card-body text-center">
           <img
-            src="https://ksr-ugc.imgix.net/assets/024/108/853/7862fe8def5abd54bb2af0aa9eaa2cdd_original.png?ixlib=rb-1.1.0&w=680&fit=max&v=1550277884&auto=format&gif-q=50&lossless=true&s=f7f8b54154ed45c6b1002110fbc66ed5"
+            src="https://www.utahsown.org/wp-content/uploads/2017/03/1916001_131895108087_7878579_n.jpg"
             class="card-img-top"
             alt="..."
           />
           <h5 class="card-title">
-            Sphero RVR – The go anywhere, do anything programmable robot
+            Amano Chocolate
           </h5>
           <p class="card-text">
-            Drive, program, and customize out of the box. Make, build, and
-            expand with 3rd party hardware.
+            Excellent smooth single source blends 
+          </p>
+          <p class="card-price">
+            $5.00
           </p>
         </div>
         <div class="card-footer">
           <button
             type="button"
             class="btn btn-primary btn-block"
-            onclick="openProductModal()"
+            onclick="openProductModal('Amano')"
           >
             Buy Product
           </button>
@@ -165,25 +166,28 @@
     </div>
     <div class="card-deck m-4">
       <!-- Card -->
-      <div class="card">
+      <div id="Michaels" class="card">
         <div class="card-body text-center">
           <img
-            src="https://ksr-ugc.imgix.net/assets/024/007/518/ce7240cb47939e0680a7930b3e360273_original.gif?ixlib=rb-1.1.0&w=680&fit=max&v=1549453576&auto=format&gif-q=50&q=92&s=f0fa62e5d2e38c818eee55c866a8c390"
+            src="https://pbs.twimg.com/media/Dx5NvD9V4AI-zp0.jpg"
             class="card-img-top"
             alt="..."
           />
           <h5 class="card-title">
-            Hio key: keep your digital life secure
+            Michael's Chocolate
           </h5>
           <p class="card-text">
-            The single key you need to have secure, faster login everywhere.
+            Valentine's Day Truffles
+          </p>
+          <p class="card-price">
+            $5.00
           </p>
         </div>
         <div class="card-footer">
           <button
             type="button"
             class="btn btn-primary btn-block"
-            onclick="openProductModal()"
+            onclick="openProductModal('Michaels')"
           >
             Buy Product
           </button>
@@ -191,26 +195,25 @@
       </div>
       <!-- /Card -->
       <!-- Card -->
-      <div class="card">
+      <div id="DarkHeart" class="card">
         <div class="card-body text-center">
           <img
-            src="https://ksr-ugc.imgix.net/assets/024/082/857/8809d3cf54f58b1307811c7f843960fb_original.gif?ixlib=rb-1.1.0&w=680&fit=max&v=1550080366&auto=format&gif-q=50&q=92&s=2900fa5f1da4795d2d65f1692fdacc83"
+            src="https://static1.squarespace.com/static/534260a7e4b047d0e0706090/t/58254bd54402433fe5cf3150/1478839523322/reve+jar+pic+new+4.jpg?format=750w"
             class="card-img-top"
             alt="..."
           />
           <h5 class="card-title">
-            SNOW | A state-of-the-art, wireless teeth whitening system.
+            Dark Heart Chili Sauce
           </h5>
           <p class="card-text">
-            The SNOW you know and love is back with a new and innovative
-            wireless teeth whitening system with dual light technology.
+            Spicy pecan, garlic and chili sauce
           </p>
         </div>
         <div class="card-footer">
           <button
             type="button"
             class="btn btn-primary btn-block"
-            onclick="openProductModal()"
+            onclick="openProductModal('DarkHeart')"
           >
             Buy Product
           </button>
@@ -218,27 +221,25 @@
       </div>
       <!-- /Card -->
       <!-- Card -->
-      <div class="card">
+      <div id="Bacco" class="card">
         <div class="card-body">
           <img
-            src="https://ksr-ugc.imgix.net/assets/023/938/654/ec715c6a6034af7ff775fb05d3ff3dc3_original.jpg?ixlib=rb-1.1.0&crop=faces&w=1024&h=576&fit=crop&v=1548866779&auto=format&frame=1&q=92&s=94feee5e11cdbe19aea52297a44f2558"
+            src="https://i.ytimg.com/vi/TgoQ4eEU8bI/hqdefault.jpg"
             class="card-img-top"
             alt="..."
           />
           <h5 class="card-title">
-            The GO Pack - Best AR Gaming Bag, SwissArmyKnife of Backpack
+            David Bacco Truffles
           </h5>
           <p class="card-text">
-            Whether you're working remotely, travel packing, AR gaming, gym
-            training, or textbook hauling, the GO handles all your needs with
-            ease.
+            Smooth truffles with dark chocolate infused with olive oil and spices
           </p>
         </div>
         <div class="card-footer">
           <button
             type="button"
             class="btn btn-primary btn-block"
-            onclick="openProductModal()"
+            onclick="openProductModal('Bacco')"
           >
             Buy Product
           </button>
@@ -250,7 +251,7 @@
 
     <!-- Footer -->
     <footer class="footer text-center">
-      <p>Made with love for stripe foundations course</p>
+      <p>No goods are *actually* available for purchase; images used depict products not in stock</p>
     </footer>
     <!-- /Footer -->
 
@@ -294,7 +295,7 @@
                   <p class="lead" id="productItemDescription">
                     Product description
                   </p>
-                  <p class="lead">Product Price</p>
+                  <p class="lead" id="productItemPrice">Product Price</p>
                 </div>
               </div>
               <!-- /Product Details Jumbo Tron -->
